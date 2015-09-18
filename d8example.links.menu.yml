@@ -1,0 +1,6 @@
+d8example.admin:
+  title: 'D8 Example'
+  description: 'Example of making an admin settings page.'
+  parent: system.admin_config_development
+  route_name: d8example.admin
+  weight: 100

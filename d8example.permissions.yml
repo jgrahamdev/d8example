@@ -1,0 +1,5 @@
+# In D8 Example permissions file.
+administer d8example:
+  title: "Administer D8 Example"
+  description: "Administer Settings for D8 Example"
+  restrict access: TRUE

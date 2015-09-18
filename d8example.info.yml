@@ -1,0 +1,6 @@
+name: D8 Example
+description: A very basic example module.
+package: Custom
+type: module
+version: 1.0
+core: 8.x

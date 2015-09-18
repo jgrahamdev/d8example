@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Module file for d8examples module.
+ */
+
+function d8example_theme() {
+  return array(
+    'd8example' => array(
+      'template' => 'd8example',
+      'variables' => array('text' => NULL),
+    ),
+  );
+}

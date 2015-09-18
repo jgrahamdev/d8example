@@ -1,0 +1,6 @@
+{
+  "name": "drupal/d8example",
+  "description": "A very basic example module.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+
+}

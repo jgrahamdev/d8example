@@ -1,0 +1,15 @@
+d8example.content:
+  path: '/example'
+  defaults:
+    _controller: '\Drupal\d8example\Controller\d8exampleController::content'
+    _title: 'Hello Out there!'
+  requirements:
+    _permission: 'access content'
+
+d8example.admin:
+  path: '/d8example/admin'
+  defaults:
+    _form: '\Drupal\d8example\Forms\d8exampleForms'
+    _title: 'D8 Example Admin Settings'
+  requirements:
+    _permission: 'administer d8example'
